@@ -1,0 +1,7 @@
+app = "klubbot"
+primary_region = "waw"
+
+[build]
+    dockerfile = "Dockerfile"
+    build-target = "production"
+    strategy = "canary"
